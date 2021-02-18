@@ -1,0 +1,35 @@
+Yeoman (software)
+
+https://www.manning.com/books/functional-programming-in-javascript
+
+https://www.manning.com/livevideo/es6-in-motion?query=ES%206
+
+https://www.manning.com/books/get-programming-with-javascript-next?query=ECMA
+
+With 10+ years of experience in software programming, can I get a job after 2 years of gap?
+
+https://www.manning.com/books/front-end-tooling-with-gulp-bower-and-yeoman?query=require.js
+
+
+
+http://dmitrysoshnikov.com/
+
+https://hacks.mozilla.org/category/es6-in-depth/
+
+https://www.quora.com/unanswered/With-10-years-of-experience-in-software-programming-can-I-get-a-job-after-2-years-of-gap
+
+https://www.quora.com/What-exactly-is-a-closure-in-JavaScript
+http://javascriptissexy.com/understand-javascript-closures-with-ease/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+https://felixgerschau.com/javascript-event-loop-call-stack/
+https://www.quora.com/What-is-the-Event-Loop-in-Javascript
+https://stackoverflow.com/questions/29813074/javascript-object-inheriting-from-function-prototype
+https://www.freecodecamp.org/news/prototype-in-js-busted-5547ec68872/
+https://exploringjs.com/es6/index.html
+https://stackoverflow.com/questions/54861385/is-object-a-function-in-javascript#:~:text=All%20native%20functions%20inherit%20from,treated%20as%20objects%20in%20JavaScript.
+https://medium.com/@lifenshades/difference-among-angular-8-7-6-5-4-3-2-breakdown-new-features-and-changes-811fb5f8e6f0
+https://github.com/30-seconds/30-seconds-of-interviews/blob/master/questions/lexical-vs-dynamic-scoping.md#:~:text=Answer,determine%20which%20variables%20are%20available.
+https://medium.com/@sardanalokesh/understanding-dom-manipulation-in-angular-2b0016a4ee5d
+https://medium.com/better-programming/3-steps-to-creating-dynamic-views-in-angular-9df80e3e3d6b
+https://hackernoon.com/exploring-angular-dom-abstractions-80b3ebcfc02

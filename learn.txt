@@ -1,0 +1,68 @@
+22/12/2020  - Tuesday
+---------------------
+
+1. Lexical scoping and closures
+
+2. what is node.js
+
+3. nvm
+
+4. require and export module in node
+
+5. repl in node.
+
+6. read and write file in node.
+
+7. event loop
+
+8. nth-child, nth-of-type
+
+
+23/12/2020  - wednesday
+-----------------------
+
+1.Jquery object and function jquery or alias $(<selector>,<context>)
+2.Problem with window.onload and how jquery(document).ready(function(){}) solves it.
+3.short hand of jquery(document).ready(function(){}) is jquery(function(){}) or $(function(){}) 
+4.window.onload only allowed one function whereas jquery approach can be used at multiple times in a page. what if old approach once used in included script file.
+5.Still better approach is to place script just before closing </body> tag. 
+6.Use of $('*') universel selector to fetch all the elements on page.
+7.Behind the scenes $('#<id>') uses document.getelementbyid() of javascript which is fast.
+8.Behind the scenes $('.<class>') uses document.getElementsByClassName() of javascript which is fast.
+9.Behind the scenes $('<type>') uses document.getElementsByTagName() of javascript which is fast. Different types in one selection is also possible, providing a performance gain as dom traversed once-$('div, span');
+10. Npm, what it is.
+11. callbacks in npm.
+12. npm init to create node projects, also default script to run can br changed for npm start.
+
+24/12/2020  - thursday
+----------------------
+
+1.object literals
+2.use of 'this' in object literals , there is nothing . It will be seen in constructors where each instance has its own object val.
+3. understand generic classes and object instances in generic languages.
+4. then same in js.
+5.objects can be created using cunstructor function, object literal, function returning object, function object constructor(also one can pass object literal in side object constructor), Object.create()(create is static method of cunstructor function object() - let person2 = Object.create(person1);)
+6.With it, you can create a new object, using an existing object as the prototype of the newly created object.
+
+
+27/12/2020 - sunday
+-------------------
+
+1. Inheritaance in Js - make one function constructor(generic class) and add some methods in its prototype, then make one specialized function constructor. 
+we have to inherit specialized class from generic class. for that firstly in specialized constructor make a call to parent constructor vis .call, this will make all properties of super class inherit to this specialized class but with the reference context of 'this'.
+
+Now what about the functions in parent constructor that were defined on its prototype? they also must be inherited or referenced, now create a new object from object.create() which will create a new object with reference to parent constructor prototype(inherits it, alll its methods) and assign this value to specialized class/constructor prototype.
+
+currently this new object refering to parent constructor prototype refers to the constructor of parent, now we have to use 
+Object.defineProperty(Teacher.prototype, 'constructor', {
+    value: Teacher,
+    enumerable: false, // so that it does not appear in 'for in' loop
+    writable: true });
+
+so now the constructor of this newly created prototype object will refer to specialized constructor... now we are set to go
+make object of sub/constructor class using new keyword. now it will have all props and funcs.
+
+
+
+
+
