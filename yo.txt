@@ -33,3 +33,4 @@ https://github.com/30-seconds/30-seconds-of-interviews/blob/master/questions/lex
 https://medium.com/@sardanalokesh/understanding-dom-manipulation-in-angular-2b0016a4ee5d
 https://medium.com/better-programming/3-steps-to-creating-dynamic-views-in-angular-9df80e3e3d6b
 https://hackernoon.com/exploring-angular-dom-abstractions-80b3ebcfc02
+https://www.youtube.com/watch?v=o7N5JyhvKIY
